@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        env: [esp32-s3-devkitc-1]  # List your envs here
+        env: [ESP32-CYD, WT32-SC01_Plus]  # List your envs here
     steps:
     - uses: actions/checkout@v6
 
